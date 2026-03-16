@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffd6c9, #ffe9d6, #fff6e5);
+}
+
+/* Main Card */
+.container {
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    padding: 35px 40px;
+    border-radius: 18px;
+    width: 360px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.container h1 {
+    color: #5b4636;
+    margin-bottom: 18px;
+}
+
+.container h2 {
+    color: #5b4636;
+    margin-bottom: 14px;
+}
+
+/* Inputs */
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #d5d4d4;
+    background: #fff8f4;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #ffb6a3;
+    box-shadow: 0 0 0 3px rgba(255, 182, 163, 0.2);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ff9a8b, #ffb6a3);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(255, 154, 139, 0.4);
+}
+
+/* Result */
+#bmiResult {
+    margin-top: 18px;
+    font-size: 26px;
+    color: #3e3e3e;
+}
+
+#bmiCategory {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #777;
+}
+
+/* BMI Scale */
+.bmi-scale {
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.scale {
+    flex: 1;
+    padding: 10px 5px;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    font-weight: 400;
+}
+
+/* Pastel BMI colors */
+.underweight {
+    background: #cfe8ff;
+}
+
+.healthy {
+    background: #d9f8d9;
+}
+
+.overweight {
+    background: #fff2c9;
+}
+
+.obese {
+    background: #ffd6d6;
+}
+
+/* Active highlight */
+.scale.active {
+    outline: 3px solid #5b4636;
+    font-weight: 800;
+}
+
+/* Error messages */
+.error-message {
+    font-size: 14px;
+    color: #e57373;
+    text-align: start;
+    display: block;
+    margin-top: 3px;
+}
