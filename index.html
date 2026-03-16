@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <meta name="description" content="A simple BMI (Body Mass Index) calculator in vanilla JS.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="bmi-container">
+            <div class="input-group">
+                <input type="number" id="userWeight" placeholder="Weight (kg)" step="0.1" min="1" autocomplete="off">
+                <span id="weight-error" class="error-message"></span>
+            </div>
+            <div class="input-group">
+                <input type="number" id="userHeight" placeholder="Height (cm)" step="1" min="50" autocomplete="off">
+                <span id="height-error" class="error-message"></span>
+            </div>
+            <button id="calculateBtn">Calculate</button>
+    
+            <h2 id="bmiResult"></h2>
+            <p id="bmiCategory"></p>
+        </div>
+    
+        <ul class="bmi-scale">
+            <li class="scale underweight">Underweight</li>
+            <li class="scale healthy">Healthy</li>
+            <li class="scale overweight">Overweight</li>
+            <li class="scale obese">Obese</li>
+        </ul>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
