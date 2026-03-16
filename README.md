@@ -13,6 +13,12 @@ A simple BMI (Body Mass Index) calculator in vanilla JS.
 - Dynamic highlighting
 - Clean UI
 
+### Tech Used
+
+- HTML
+- CSS
+- JavaScript
+
 ### BMI Categories
 
 - Underweight: BMI < 18.5
