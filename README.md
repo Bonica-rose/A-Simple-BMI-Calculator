@@ -29,4 +29,4 @@ A simple BMI (Body Mass Index) calculator in vanilla JS.
 
 ### Screenshots
 
-/home/sabit/Downloads/after.png
+![alt text](after.png)
