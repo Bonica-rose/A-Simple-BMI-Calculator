@@ -26,3 +26,7 @@ A simple BMI (Body Mass Index) calculator in vanilla JS.
 - Healthy: 18.5 ≤ BMI < 25
 - Overweight: 25 ≤ BMI < 30
 - Obese: BMI ≥ 30
+
+### Screenshots
+
+/home/sabit/Downloads/after.png
