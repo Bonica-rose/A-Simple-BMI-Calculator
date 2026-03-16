@@ -30,3 +30,4 @@ A simple BMI (Body Mass Index) calculator in vanilla JS.
 ### Screenshots
 
 ![alt text](after.png)
+![alt text](start.png)
